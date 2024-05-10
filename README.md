@@ -1,0 +1,1 @@
+ - tsc --init - gera o arquivo de configuração
