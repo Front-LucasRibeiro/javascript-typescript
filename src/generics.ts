@@ -28,3 +28,6 @@ class C_teste<T>{
 
 const cTeste = new C_teste<number>(10)
 const cTeste2 = new C_teste<string>('oi')
+
+
+// TO DO: Crie funções e classes genéricas reutilizáveis.
