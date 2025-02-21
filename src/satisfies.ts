@@ -31,12 +31,12 @@ applicant.myInfo.toUpperCase();
 // restrição de nome de propriedade 
 type Keys = "personID" | "personName" | "personEmail" | "personAge" | "personPhone";
 
-const person = {
+const person2 = {
   personID: 12345,
   personName: "Jacky",
   personEmail: "jacky@testing.com",
   personAge: 22,
 } satisfies Partial<Record<Keys, string | number>>;
 
-person.personName.toUpperCase();
-person.personAge.toFixed();
+person2.personName.toUpperCase();
+person2.personAge.toFixed();
