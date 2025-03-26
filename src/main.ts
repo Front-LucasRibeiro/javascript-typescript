@@ -4,6 +4,7 @@ import { functions } from "./functions";
 import Computador, { Pessoa } from "./POO";
 import rest from "./rest-spread";
 import "./style.css";
+import createSymbol from "./symbol";
 import { types } from "./tipagem";
 import Tuplas from "./tuplas";
 
@@ -23,5 +24,6 @@ let pessoa = new Pessoa("Lucas", 32);
 // console.log(Globais.teste)
 Tuplas();
 Union("Lucas");
+createSymbol();
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = ``;
